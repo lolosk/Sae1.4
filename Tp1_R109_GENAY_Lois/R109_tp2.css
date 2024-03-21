@@ -1,0 +1,62 @@
+table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.mytable {
+
+
+
+}
+.mythead {
+    background-color: yellow;
+
+}
+.mytbody {
+    background-color: pink;
+
+}
+.mytfoot {
+    background-color: palegreen;
+    font-weight: bold;
+
+}
+.mytablecollapsed {
+    border: none;
+    padding: 3em;
+    border-collapse: collapse;
+}
+.mytablecollapsed .mythead th {
+    padding: lex;
+    border-style: solid;
+    border-color: orange;
+}
+.mytablecollapsed .mytbody td {
+    padding: lex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: purple;
+}
+.mytablecollapsed .mytfoot td {
+    padding: lex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: olive;
+}
+.captionbottom {
+    caption-side: bottom;
+    margin-top: lex;
+    text-align: left;
+    font-style: italic;
+}
+
+#emptyleft {
+    border-left-style: none;
+    border-bottom-style: none;
+    background-color: white;
+}
+#emptyright {
+    border-right-style: none;
+    border-bottom-style: none;
+    background-color: white;
+}
