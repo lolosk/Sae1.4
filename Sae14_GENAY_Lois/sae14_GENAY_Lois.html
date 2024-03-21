@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+
+    <style>
+        body {
+            background-color: #4472C4;
+            font-size: 120%;
+
+        }
+        address {
+            font-size: 85%;
+            color: black;
+            margin-top: 1ex;
+            
+        }
+        sup {
+            font-size: 1ex;
+        }
+        .imgprofil  {
+            width: 7em;
+            height: 8em;
+            border-style: dotted;
+            border-width: 1px;
+            float: right;
+            margin-top: 50px;
+            /*bordure image*/
+            border-style: solid;
+            border-width: 2px;
+            
+        }
+        .poste {
+            color: goldenrod;
+        }
+        .institut {
+            color: #4472C4;
+            font-style: italic;
+        }
+        .lieu {
+            color: purple;
+            font-variant: small-caps;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .periode {
+            color: #4472C4;
+            float: right;
+        }
+        #tete {
+            background-color: #F2F2F2;
+            padding-top: 0em;
+            padding-bottom: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            /* J'ai fait une bordure*/
+            border-style: solid;
+        }
+        #corps {
+            background-color: whitesmoke;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            /* J'ai fait une bordure*/
+            border-style: solid;
+        }
+        #pied {
+            background-color: #dddddd;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            width: 10%;
+            text-align: center;
+            border-top-style: solid;
+            border-top-width: 1px;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: solid;
+            margin-top: 0.5em;
+        }
+        #tete, #corps, #pied {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        #tete h1 {
+            color: black;
+            font-family: cursive;
+            font-size: 2em;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-variant: small-caps;
+        }
+        #corps h1 {
+            background-color: #eeeeee;
+            border-style: solid;
+            border-width: 2px;
+            text-align: center;
+            font-variant: small-caps;
+            box-shadow: 0.4ex 0.4ex #999999;
+            margin: 0;
+            
+        }
+        ul {
+            list-style-position: inside;
+            margin: 0;
+            padding: 0;
+        }
+        .lniv1 {
+
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 0.5ex;
+            padding-bottom: 1.5em;
+            list-style: square;
+
+        }
+        .lniv1 li {
+            padding-top: 1em;
+        }
+        .lniv2 {
+            list-style-image: url("checkmark.png") ;
+            padding-left: 1em;
+            padding-top: 0em;
+        }
+        .lniv2 li {
+            padding-top: 1ex;
+        }
+        #etatcivil {
+            width: 50%;
+        }
+        #navigation {
+            width: 24em;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border-style: solid;
+        }
+        .lnav {
+            list-style-type: none;
+            overflow: auto;
+        }
+        .lnav li {
+            background-color: #F2F2F2;
+            text-align: center;
+            width: 8em;
+            float: left;
+        }
+        .lnav a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+        .lnav li:active {
+            background-color: gray;
+
+        }
+        .lnav li:hover {
+            background-color: gray;
+        }
+        /*Nom de famille en bleu*/
+        .blue {
+            color: #4472C4;
+        }
+        /*mettre les icone pour la position, l'adresse mail, le numéro de telephone, le profile et le Linkedin*/
+        .position {
+            list-style-image: url("position.png") ;
+        }
+        .mail {
+            list-style-image: url(mail.png);
+        }
+        .tel {
+            list-style-image: url(tel.png);
+        }
+        .profile {
+            list-style-image: url(profile.png);
+        }
+
+        .linkedin {
+            list-style-image: url(linkedin.png);
+        }
+
+            
+
+        
+
+        
+        
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="tete"><img class="imgprofil" src="photoprofil.jpg" alt="photo_profil"/>
+    <div id="etatcivil">
+        <h1>Lois <!--Nom de famille en bleu--><span class="blue">GENAY</span></h1>
+
+        <address>
+        <ul class="lniv1">
+            <!--lien de redirection vers la ville de Nancy (Chateau du Montet)-->
+            <li class="position"><a href="https://www.google.com/maps/@48.6539264,6.1571072,14z?entry=ttu">Nancy</a>&nbsp;54000</li>
+            <!--lien de redirection pour l'envoi d'un email-->
+            <li class="mail">Mail&nbsp;:&nbsp;<a href="mailto:lois.genay9@etu.univ-lorraine.fr" style="color: black;">lois.genay9@etu.univ-lorraine.fr</a></li>
+            <!--lien de redirection pour un appel-->
+            <li class="tel">Tel portable&nbsp;: <a href="tel:0671032687" style="color: black;">06 71 03 XX 87</a></li>
+            <li class="profile">19 ans, Fran&ccedil;ais</li>
+            <!--lien vers mon profil Linkedin-->
+            <li class="linkedin"><a href="https://www.linkedin.com/in/lo%C3%AFs-genay-9b7367254/">Linkedin</a></li>
+        </ul>
+        
+        </address>
+    </div>
+    </div>
+
+    <div id="navigation">
+        <ul class="lnav">
+            <li><a href="#experiences">exp&eacute;riences</a></li>
+            <li><a href="#formation">formation</a></li>
+            <li><a href="#langues">langues</a></li>
+        </ul>
+    </div>
+ 
+ 
+ 
+    <div id="corps">
+            <h1 id="experiences"><img src="pictoexpro.png" alt="picto"> Exp&eacute;rience Professionnelles</h1>
+        <ul class="lniv1">
+            <li><span class="poste">Vendeur,</span><span class="institut">&nbsp;Schaller,</span><span class="lieu"> Vand&oelig;uvre &mdash; Lès &mdash; Nancy</span> <span class="periode"> Décembre 2022/2023</span>
+                <ul class="lniv2"><li>Stocker les produits correctement pour qu'ils restent frais</li>
+                <li>Disposer les produits de manière attrayante sur le comptoir</li>
+                <li>Aider les clients en répondant à leurs questions et en pesant les articles afin de les Encaisser</li>
+                <li>Respecter les règles de sécurité alimentaire et d'hygiène</li>
+                <li>Gérer les stocks et maintenir un inventaire</li>
+                </ul>
+            </li>
+            <li><span class="poste">Facteur,</span><span class="institut"> Groupe <strong>La Poste</strong>,</span><span class="lieu"> Heillecourt </span><span class="periode"> Aout 2022</span>
+                <ul class="lniv2"><li> Trie du courrier </li>
+                <li>Distribution du courrier à vélo</li>
+                <li>Collecte du courrier des boites jaunes</li>
+                <li>Faire signer les courriers et les colis recommandés</li>
+                <li>Suivre des règles de sécurité tel que le port des EPI</li>
+                <li>Gèrer les problèmes qui arrivent, comme quand une adresse est incorrecte</li>
+                </ul>
+            </li>
+        </ul>
+
+            <h1 id="formation"><img src="pictograduate.png" alt="picto"> Formation</h1>
+        <ul class="lniv1">
+            <li><span class="poste">Baccalauréat scientifique mention bien,</span><span class="institut">&nbsp;Lycée Jacque-Marie Boutet de Monvel,</span><span class="lieu">&nbsp;Lunéville</span> <span class="periode">2019-2022</span>
+        
+        <li><span class="poste">1 ère année de BUT Génie mécanique et productique,</span><span class="institut">&nbsp;IUT de Nancy – Brabois</span><span class="periode"> 2022-2023</span></li>
+        <li><span class="poste">1 ère année de BUT Réseaux et Télécommunications,</span><span class="institut">&nbsp;IUT de Nancy – Brabois</span><span class="periode"> 2023-2024</span></li>
+        </ul>
+        <h1 id="langues"><img src="pictolang.png" alt="picto"> Langues</h1>
+        <ul class="lniv1">
+            <li><span class="poste">Français,&nbsp;langue maternelle</span>
+                <li><span class="poste">Anglais,&nbsp;B1</span>
+                    <li><span class="poste">Italien,&nbsp;A2</span>
+            </li>
+            
+        </ul>
+
+    </div>
+    <div id="pied">
+        <!--ajout d'un bouton Accueil--> 
+        <span class="lnav"><a href="#tete">Accueil</a></span>
+    </div>
+    
+</body>
+</html>
