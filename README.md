@@ -26,7 +26,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/cv-html-css.git
+   git clone https://github.com/lolosk/Sae1.4.git
 2. Accédez au répertoire du projet :
    ```bash
    cd Sae1.4
