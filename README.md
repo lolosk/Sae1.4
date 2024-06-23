@@ -10,10 +10,6 @@ Ce projet est une réalisation d'un CV en utilisant les technologies HTML et CSS
 2. [Prérequis](#prérequis)
 3. [Installation](#installation)
 4. [Utilisation](#utilisation)
-5. [Structure du projet](#structure-du-projet)
-6. [Personnalisation](#personnalisation)
-7. [Contribuer](#contribuer)
-8. [Licence](#licence)
 
 ## Introduction
 
