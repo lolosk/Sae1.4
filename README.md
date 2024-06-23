@@ -29,7 +29,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
    git clone https://github.com/votre-utilisateur/cv-html-css.git
 2. Accédez au répertoire du projet :
    ```bash
-   cd cv-html-css
+   cd Sae1.4
 
 ## Utilisation
 
